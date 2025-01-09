@@ -1,0 +1,51 @@
+{"name":"Game A","pretBilet":1000,"startDate":"2023-11-10T15:00:00.000Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"0HzUsB3WPO0zvI97"}
+{"name":"Championship Clash","pretBilet":55,"startDate":"2023-11-15T16:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"1"}
+{"name":"Battle of Titans","pretBilet":60,"startDate":"2023-12-08T13:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"10"}
+{"name":"Elite Cup","pretBilet":95,"startDate":"2023-12-12T18:00:00.000Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"11"}
+{"name":"Grand Tournament","pretBilet":100,"startDate":"2023-12-15T14:30:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"12"}
+{"name":"Conquest Series","pretBilet":55,"startDate":"2023-12-18T16:45:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"13"}
+{"name":"Heroes' Duel","pretBilet":40,"startDate":"2023-11-19T19:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"14"}
+{"name":"Power Play","pretBilet":50,"startDate":"2023-11-27T15:30:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"15"}
+{"name":"Dynasty Duel","pretBilet":85,"startDate":"2023-11-21T18:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"16"}
+{"name":"All-Star Brawl","pretBilet":75,"startDate":"2023-11-29T20:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"17"}
+{"name":"Legend's Clash","pretBilet":65,"startDate":"2023-12-02T17:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"18"}
+{"name":"Pinnacle Challenge","pretBilet":90,"startDate":"2023-12-14T16:30:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"19"}
+{"name":"Ultimate Showdown","pretBilet":80,"startDate":"2023-11-20T19:30:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"2"}
+{"name":"The Last Stand","pretBilet":70,"startDate":"2023-12-09T13:15:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"20"}
+{"name":"aaa","pretBilet":11,"hasStarted":false,"startDate":"2024-11-03T17:17:19.528Z","userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"2ZH06UWACRpUjAKb"}
+{"name":"Legendary League","pretBilet":65,"startDate":"2023-12-01T14:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"3"}
+{"name":"Victory Quest","pretBilet":45,"startDate":"2023-12-10T12:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"4"}
+{"name":"Epic Encounter","pretBilet":90,"startDate":"2023-11-22T18:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"5"}
+{"name":"Game B","pretBilet":75,"startDate":"2023-11-12T18:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"5jiukIovSHq5rHhA"}
+{"name":"Final Faceoff","pretBilet":75,"startDate":"2023-11-30T20:15:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"6"}
+{"name":"Glory Match","pretBilet":50,"startDate":"2023-12-03T15:45:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"7"}
+{"name":"Arena Showdown","pretBilet":70,"startDate":"2023-12-05T19:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"8"}
+{"name":"Trophy Challenge","pretBilet":85,"startDate":"2023-11-12T17:30:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"9"}
+{"name":"Game R","pretBilet":65000,"startDate":"2023-12-04T15:30:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"D5bJlO2eK3rV4F6Y"}
+{"name":"Game T","pretBilet":40,"startDate":"2023-12-06T13:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"F9zQvO3tE8jK2P6H"}
+{"name":"Game M","pretBilet":60,"startDate":"2023-11-26T14:30:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"G3sP2cF5K9jL7H5N"}
+{"name":"Game S","pretBilet":75,"startDate":"2023-12-05T19:45:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"H7xNt9PvR3qL2K5G"}
+{"name":"Game O","pretBilet":50,"startDate":"2023-11-30T17:45:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"J2gHt9ZcL1oM8N7Q"}
+{"name":"Game Q","pretBilet":85,"startDate":"2023-12-03T18:15:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"K8lOvF4cD7mT1V9J"}
+{"name":"Game L","pretBilet":55,"startDate":"2023-11-24T20:15:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"N7tR2PJLv1aK4Z6Y"}
+{"name":"Game P","pretBilet":70,"startDate":"2023-12-01T16:30:00Z","hasStarted":true,"userId":"3J88f3TmvgqSNV6E","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"P9gK2Nv8R5hS3L4X"}
+{"name":"Game N","pretBilet":95,"startDate":"2023-11-29T19:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"Q5vHlT7gO9fR6K1A"}
+{"name":"Game C","pretBilet":60,"startDate":"2023-11-15T20:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"Q632hxHK4aleF4R4"}
+{"name":"Game D","pretBilet":55,"startDate":"2023-11-09T14:30:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"RCdHQoGzBtGUgkjg"}
+{"_id":"VaQ7VtSfwtJm3pFn","hasStarted":false,"isSynced":true,"latitude":0,"longitude":0,"name":"Game E","pretBilet":85,"startDate":"Nov 23, 2024 4:37:00 PM","userId":"3J88f3TmvgqSNV6E"}
+{"name":"Game AA","pretBilet":55,"startDate":"2023-12-15T13:45:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"h6xUvP3gC7oT2K4J"}
+{"name":"Game F","pretBilet":45,"startDate":"2023-11-08T16:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"hPOTpXaZ1iCoth7j"}
+{"name":"Game U","pretBilet":95,"startDate":"2023-12-07T17:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"iKd8CvGhTZuP9O2L"}
+{"name":"Game Y","pretBilet":50,"startDate":"2023-12-13T15:15:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"j3hGt1PcD2lM7N5P"}
+{"name":"Game K","pretBilet":90,"startDate":"2023-11-23T18:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"mN0gKvGhTZuP6O5W"}
+{"name":"Game V","pretBilet":60,"startDate":"2023-12-08T19:30:00Z","hasStarted":true,"userId":"3J88f3TmvgqSNV6E","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"nJh1RtPcV3oW6K9E"}
+{"name":"Game Z","pretBilet":100,"startDate":"2023-12-14T18:30:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"p8lQvN9oE4jK3S9H"}
+{"name":"Game W","pretBilet":80,"startDate":"2023-12-10T14:00:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"rU2vXcF5J9jL7P4Q"}
+{"name":"Game AD","pretBilet":75,"startDate":"2023-12-20T14:15:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"t7hKvO5dR3qL2P5N"}
+{"name":"Game G","pretBilet":100,"startDate":"2023-11-22T17:30:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"tCc1ltDb8XRPJ2y1"}
+{"name":"Game H","pretBilet":65,"startDate":"2023-11-25T15:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zz","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"tCc1ltDb8XRPJ2y2"}
+{"name":"Game I","pretBilet":70,"startDate":"2023-11-13T16:45:00Z","hasStarted":false,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"tCc1ltDb8XRPJ2yn"}
+{"name":"bbb","pretBilet":11,"hasStarted":false,"startDate":"2024-11-03T17:21:28.287Z","userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"tLmiDbN3sZqLMtQr"}
+{"name":"Game X","pretBilet":70,"startDate":"2023-12-11T16:45:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"u2rTlO7eD3tV5F7Y"}
+{"_id":"w4mOt9ZpE1jQ7S8K","hasStarted":false,"latitude":0,"longitude":0,"name":"Game AC","pretBilet":90,"startDate":"Dec 18, 2023 9:00:00 PM","userId":"3J88f3TmvgqSNV6E"}
+{"name":"Game J","pretBilet":85,"startDate":"2023-11-19T14:00:00Z","hasStarted":true,"userId":"vI1GMkzBza5i82zj","latitude":46.77511315141826,"longitude":23.621408655788837,"_id":"xaDRAPTAzvcyV0Tr"}
