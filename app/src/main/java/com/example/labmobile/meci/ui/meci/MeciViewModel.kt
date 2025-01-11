@@ -50,12 +50,12 @@ class MeciViewModel(private val meciId: String?, private val meciRepository: Mec
                 }
             }
 
-            fun saveOrUpdateMeci(name: String, pretBilet: Int, hasStarted: Boolean, startDate: Date) {
+            fun saveOrUpdateMeci(name: String, pretBilet: Int, hasStarted: Boolean, startDate: Date, latitude: Double, longitude: Double) {
                 viewModelScope.launch {
                     Log.d(TAG, "saveOrUpdateMeci...")
                     try {
                         uiState = uiState.copy(submitResult = Result.Loading)
-                        val meci = uiState.meci.copy(name = name, hasStarted = hasStarted, pretBilet = pretBilet, startDate = startDate, latitude = 0.0, longitude = 0.0)
+                        val meci = uiState.meci.copy(name = name, hasStarted = hasStarted, pretBilet = pretBilet, startDate = startDate, latitude = latitude, longitude = longitude)
                         val savedMeci: Meci
                         if(meciId == null) {
                             savedMeci = meciRepository.save(meci)

@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.labmobile"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.labmobile"
@@ -78,4 +78,9 @@ dependencies {
     // Material
     implementation(libs.androidx.compose.material)
     implementation(libs.icons.extended)
+    // Permissions
+    implementation(libs.accompanist.permissions)
+    // Location
+    implementation(libs.play.services.location)
+    implementation(libs.maps.compose)
 }

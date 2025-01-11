@@ -2,7 +2,10 @@ package com.example.labmobile.meci.ui.meciuri
 
 import android.util.Log
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Add
@@ -23,12 +26,15 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.labmobile.R
 import com.example.labmobile.jobs.MyJobs
 import com.example.labmobile.network.MyNetworkStatus
 import com.example.labmobile.notifications.MyNotifications
+import com.example.labmobile.sensors.DeviceSensors
+import com.example.labmobile.sensors.ProximitySensor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -88,6 +94,11 @@ fun MeciuriScreen(
                     onClick = {selectedTabIndex = 2},
                     text = {Text("Notifications")}
                 )
+                Tab(
+                    selected = selectedTabIndex == 3,
+                    onClick = {selectedTabIndex = 3},
+                    text = {Text("Sensors")}
+                )
             }
 
             // Tab content
@@ -99,6 +110,16 @@ fun MeciuriScreen(
                 )
                 1 -> MyJobs()
                 2 -> MyNotifications()
+                3 -> {
+                    Column(
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Spacer(modifier = Modifier.height(50.dp))
+                        ProximitySensor(modifier = Modifier.fillMaxWidth())
+                        Spacer(modifier = Modifier.height(16.dp))
+                        DeviceSensors(modifier = Modifier.fillMaxWidth())
+                    }
+                }
             }
         }
     }

@@ -21,6 +21,7 @@ import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableDoubleStateOf
 import androidx.compose.runtime.mutableStateMapOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -34,6 +35,8 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.labmobile.R
 import com.example.labmobile.core.Result
+import com.example.labmobile.core.TAG
+import com.example.labmobile.location.MyMap
 import com.example.labmobile.meci.ui.meci.MeciViewModel
 import java.time.Instant
 import java.time.LocalDate
@@ -52,6 +55,8 @@ fun MeciScreen(meciId: String?, onClose: () -> Unit) {
     var pretBilet by rememberSaveable { mutableStateOf(meciUiState.meci.pretBilet) }
     var hasStarted by rememberSaveable { mutableStateOf(meciUiState.meci.hasStarted) }
     var startDate by rememberSaveable { mutableStateOf(meciUiState.meci.startDate) }
+    var latitude by rememberSaveable { mutableDoubleStateOf(meciUiState.meci.latitude) }
+    var longitude by rememberSaveable { mutableDoubleStateOf(meciUiState.meci.longitude) }
     var isDatePickerDialogOpen by remember { mutableStateOf(false) }
     Log.d("MeciScreen", "recompose")
 
@@ -111,6 +116,30 @@ fun MeciScreen(meciId: String?, onClose: () -> Unit) {
         }
     }
 
+    var latitudeInitialized by remember { mutableStateOf(meciId == null) }
+    LaunchedEffect(meciId, meciUiState.loadResult) {
+        Log.d("ItemScreen", "Latitude initialized = ${meciUiState.loadResult}")
+        if(latitudeInitialized) {
+            return@LaunchedEffect
+        }
+        if(!(meciUiState.loadResult is Result.Loading)) {
+            latitude = meciUiState.meci.latitude
+            latitudeInitialized = true
+        }
+    }
+
+    var longitudeInitialized by remember { mutableStateOf(meciId == null) }
+    LaunchedEffect(meciId, meciUiState.loadResult) {
+        Log.d("ItemScreen", "Longitude initialized = ${meciUiState.loadResult}")
+        if(longitudeInitialized) {
+            return@LaunchedEffect
+        }
+        if(!(meciUiState.loadResult is Result.Loading)) {
+            longitude = meciUiState.meci.longitude
+            longitudeInitialized = true
+        }
+    }
+
     Scaffold (
         topBar = {
             TopAppBar(
@@ -118,7 +147,7 @@ fun MeciScreen(meciId: String?, onClose: () -> Unit) {
                 actions = {
                     Button(onClick = {
                         Log.d("MeciScreen", "save meci")
-                        meciViewModel.saveOrUpdateMeci(name, pretBilet, hasStarted, startDate)
+                        meciViewModel.saveOrUpdateMeci(name, pretBilet, hasStarted, startDate, latitude, longitude)
                     }) { Text("Save")}
                 }
             )
@@ -149,7 +178,7 @@ fun MeciScreen(meciId: String?, onClose: () -> Unit) {
                 label = { Text("Name") },
                 modifier = Modifier.fillMaxWidth()
             )
-            Spacer(modifier = Modifier.height(16.dp)) // Espaciado entre campos
+            Spacer(modifier = Modifier.height(16.dp))
 
             TextField(
                 value = if (pretBilet == 0) "" else pretBilet.toString(),
@@ -179,6 +208,17 @@ fun MeciScreen(meciId: String?, onClose: () -> Unit) {
                     val localDateTime = LocalDateTime.parse(dateTimeString, formatter)
                     val instant = localDateTime.atZone(ZoneId.systemDefault()).toInstant()
                     startDate = Date.from(instant)
+                }
+            )
+
+            MyMap(
+                lat = latitude,
+                lng = longitude,
+                modifier = Modifier.fillMaxWidth(),
+                onLocationChanged = {lat, lng ->
+                    Log.d(TAG, "changing to ${lat} - ${lng}")
+                    latitude = lat
+                    longitude = lng
                 }
             )
         }

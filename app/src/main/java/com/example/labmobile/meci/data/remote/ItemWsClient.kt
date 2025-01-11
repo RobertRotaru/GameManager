@@ -29,7 +29,7 @@ class ItemWsClient(private val okHttpClient: OkHttpClient) {
                 request,
                 MeciWebSocketListener(onEvent = onEvent, onClosed = onClosed, onFailure = onFailure)
             )
-            okHttpClient.dispatcher.executorService.shutdown()
+//            okHttpClient.dispatcher.executorService.shutdown()
         }
     }
 
